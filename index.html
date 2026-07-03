@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dissolução de Sais em Água - NaCl</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Dissolução de Sais em Água</h1>
+    <p>Exemplo: Cloreto de Sódio (NaCl)</p>
+  </header>
+
+  <main>
+    <section id="intro">
+      <h2>Introdução</h2>
+      <p>Quando sais como o NaCl entram em contato com a água, eles se dissociam em íons. Este processo é fundamental para entender soluções aquosas e suas propriedades.</p>
+    </section>
+
+    <section id="concept">
+      <h2>Explicação Conceitual</h2>
+      <p>O NaCl sólido é formado por íons Na⁺ e Cl⁻ organizados em uma rede cristalina. Ao ser adicionado à água, as moléculas polares de H₂O interagem com os íons, separando-os e estabilizando-os em solução.</p>
+    </section>
+
+    <section id="animation">
+      <h2>Animação Didática</h2>
+      <canvas id="animationCanvas" width="400" height="300"></canvas>
+    </section>
+
+    <section id="simulation">
+      <h2>Simulação Interativa</h2>
+      <label for="concentration">Concentração de NaCl (mol/L):</label>
+      <input type="range" id="concentration" min="0" max="5" step="0.1" value="1">
+      <span id="concentrationValue">1 mol/L</span>
+      <canvas id="graphCanvas" width="400" height="300"></canvas>
+    </section>
+
+    <section id="quiz">
+      <h2>Quiz Interativo</h2>
+      <div id="quizContainer"></div>
+      <button id="submitQuiz">Enviar Respostas</button>
+      <p id="quizFeedback"></p>
+      <p id="quizScore"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Projeto educacional interativo - GitHub Pages</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
